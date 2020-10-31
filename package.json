@@ -1,0 +1,19 @@
+{
+  "name": "webpack-5",
+  "version": "1.0.0",
+  "description": "curso de webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Andres Bonett <andresbonettm@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^5.3.2",
+    "webpack-cli": "^4.1.0"
+  }
+}
