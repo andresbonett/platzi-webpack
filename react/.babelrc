@@ -1,0 +1,23 @@
+{
+  "plugins": ["@babel/plugin-transform-runtime"],
+  "presets": [
+    "@babel/preset-env", // babel lo usa para entender es6+
+    [
+      "@babel/preset-react", // babel lo usa para entender jsx
+      { "runtime": "automatic" } // nueva trasformacion JSX react 17
+    ]
+  ]
+}
+
+// install babel
+// npm i -D @babel/core babel-loader @babel/preset-env
+
+// plugin para async await
+// npm i @babel/plugin-transform-runtime --save-dev
+// npm i @babel/runtime --save
+
+// install @babel/preset-react
+// npm i -D @babel/preset-react
+
+// instalar react
+// npm i react react-dom
