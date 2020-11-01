@@ -1,0 +1,11 @@
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": ["@babel/plugin-transform-runtime"]
+}
+
+// instalar babel
+// npm i -D @babel/core babel-loader @babel/preset-env
+
+// async await
+// npm i @babel/plugin-transform-runtime --save
+// npm i @babel/runtime --save

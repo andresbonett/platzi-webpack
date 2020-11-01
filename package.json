@@ -9,15 +9,22 @@
     "build:multi": "webpack --config ./multi/webpack.config.js",
     "build:css-loaders": "webpack --config ./css-loaders/webpack.config.js",
     "build:plugins": "webpack --config ./webpack-plugins/webpack.config.js",
-    "build:dev": "webpack serve --config ./webpack-dev-server/webpack.config.js"
+    "build:dev": "webpack serve --config ./webpack-dev-server/webpack.config.js",
+    "build:babel": "webpack serve --config ./babel/webpack.config.js"
   },
   "keywords": [
     "webpack"
   ],
   "author": "Andres Bonett <andresbonettm@gmail.com>",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "@babel/runtime": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.1"
+  },
   "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.1.0",
     "css-loader": "^5.0.0",
     "html-webpack-plugin": "^4.5.0",
     "mini-css-extract-plugin": "^1.2.1",
